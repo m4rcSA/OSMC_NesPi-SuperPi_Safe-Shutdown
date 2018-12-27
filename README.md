@@ -23,8 +23,9 @@ sudo rm -r /usr/src/raspi-gpio/ raspi-gpio-osmc.tar.gz
 ```
 
 # 2. Make directory & install shutdownscript:
-
+```
 mkdir /home/pi/scripts && cd /home/pi/scripts && wget https://raw.githubusercontent.com/Denisuu/OSMC_NesPi-SuperPi_Safe-Shutdown/master/multi_switch.sh && chmod +x multi_switch.sh
+```
 
 # 3a. Edit rc.local to autostart the script:
 ```
