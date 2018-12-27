@@ -33,21 +33,22 @@ OSMC:
 mkdir /home/osmc/scripts && cd /home/osmc/scripts && wget https://raw.githubusercontent.com/Denisuu/OSMC_NesPi-SuperPi_Safe-Shutdown/master/multi_switch.sh && chmod +x multi_switch.sh
 ```
 
-# 3a. Edit rc.local to autostart the script:
-Raspbian & OSMC
+# 3. Edit rc.local to autostart the script:
+Raspbian & OSMC:
 ```
 sudo nano /etc/rc.local
 ```
+
+Add the following line above exit 0
+
 Raspbian:
 ```
 /home/pi/scripts/multi_switch.sh --nespi+ & #Add this line above exit 0!
-exit 0
 ```
 
 OSMC:
 ```
 /home/osmc/scripts/multi_switch.sh --nespi+ & #Add this line above exit 0!
-exit 0
 ```
 
 # 4. Install fan_shutdown script (by cyperghost):
