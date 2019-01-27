@@ -30,7 +30,7 @@ mkdir /home/pi/scripts && cd /home/pi/scripts && wget https://raw.githubusercont
 ```
 OSMC:
 ```
-mkdir /home/osmc/scripts && cd /home/osmc/scripts && wget https://raw.githubusercontent.com/Denisuu/OSMC_NesPi-SuperPi_Safe-Shutdown/master/multi_switch.sh && chmod +x multi_switch.sh
+sudo mkdir /home/osmc/scripts && cd /home/osmc/scripts && wget https://raw.githubusercontent.com/Denisuu/OSMC_NesPi-SuperPi_Safe-Shutdown/master/multi_switch.sh && chmod +x multi_switch.sh
 ```
 
 # 3. Edit rc.local to autostart the script:
