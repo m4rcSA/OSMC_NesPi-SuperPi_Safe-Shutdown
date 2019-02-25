@@ -1,9 +1,10 @@
 # INFO
 
-This script enables the safe-shutdown and reset buttons on Retroflag's NesPi & SuperPi cases on OSMC and Raspbian. It is basically a stripped down version of ES-generic-shutdown by cyperghost to work on OSMC so all credit goes to him!
+This script enables the safe-shutdown and reset buttons on Retroflag's NesPi & SuperPi cases on OSMC and Raspbian. It is basically a stripped down version of ES-generic-shutdown by cyperghost to work on OSMC and Raspbian so all credit goes to him! 
 
 This makes the pi shutdown completely, including the fan!!!
 
+For the original script for Retropi see:
 https://github.com/crcerror/ES-generic-shutdown  
 http://retroflag.com/  
 
