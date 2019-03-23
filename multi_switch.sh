@@ -78,4 +78,8 @@ case "$CASE_SEL" in
         cli_parameter resetbtn= powerbtn= powerctrl= ledctrl=
         NESPiPlus ${call[@]}
     ;;
+    "--Super-NESPI")
+        cli_parameter resetbtn=8 powerbtn=16 powerctrl=10 ledctrl=
+        NESPiPlus ${call[@]}
+    ;;
 esac
