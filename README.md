@@ -47,7 +47,7 @@ Raspbian:
 
 OSMC:
 ```
-/home/osmc/scripts/multi_switch.sh --nespi+ & #Add this line above exit 0!
+/home/osmc/scripts/multi_switch.sh --Super-NESPI & #Add this line above exit 0!
 ```
 
 # 4. Install fan_shutdown script (by cyperghost):
