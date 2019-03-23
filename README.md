@@ -9,6 +9,9 @@ For the original script for Retropi see:
 https://github.com/crcerror/ES-generic-shutdown  
 http://retroflag.com/  
 
+Original Super Nespi case script:
+https://github.com/SNESPi/Super-NESPi-Case
+
 # 1. Download and compile raspi-gpio or use comand below:
 
 Raspbian:
@@ -29,7 +32,7 @@ mkdir /home/pi/scripts && cd /home/pi/scripts && wget https://raw.githubusercont
 ```
 OSMC:
 ```
-mkdir /home/osmc/scripts && cd /home/osmc/scripts && wget https://raw.githubusercontent.com/Denisuu/OSMC_NesPi-SuperPi_Safe-Shutdown/master/multi_switch.sh && chmod +x multi_switch.sh
+mkdir /home/osmc/scripts && cd /home/osmc/scripts && wget https://raw.githubusercontent.com/m4rcSA/OSMC_NesPi-SuperPi_Safe-Shutdown/master/multi_switch.sh && chmod +x multi_switch.sh
 ```
 
 # 3. Edit rc.local to autostart the script:
