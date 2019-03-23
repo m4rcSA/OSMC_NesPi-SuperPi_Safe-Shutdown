@@ -18,10 +18,7 @@ sudo apt-get install raspi-gpio
 
 OSMC:
 ```
-cd /usr/src && sudo wget https://github.com/Denisuu/OSMC_NesPi-SuperPi_Safe-Shutdown/raw/master/raspi-gpio-osmc.tar.gz && tar -xvzf raspi-gpio-osmc.tar.gz && cd /usr/src/raspi-gpio && apt-get install make && make install
-```
-```
-sudo rm -r /usr/src/raspi-gpio/ raspi-gpio-osmc.tar.gz
+cd /usr/src && sudo wget https://github.com/Denisuu/OSMC_NesPi-SuperPi_Safe-Shutdown/raw/master/raspi-gpio-osmc.tar.gz && sudo tar -xvzf raspi-gpio-osmc.tar.gz && cd /usr/src/raspi-gpio && sudo apt-get install make gcc libc6-dev && sudo make install && cd /usr/src && sudo rm -r /usr/src/raspi-gpio/ raspi-gpio-osmc.tar.gz
 ```
 
 # 2. Make directory & install shutdownscript:
@@ -32,7 +29,7 @@ mkdir /home/pi/scripts && cd /home/pi/scripts && wget https://raw.githubusercont
 ```
 OSMC:
 ```
-sudo mkdir /home/osmc/scripts && cd /home/osmc/scripts && wget https://raw.githubusercontent.com/Denisuu/OSMC_NesPi-SuperPi_Safe-Shutdown/master/multi_switch.sh && chmod +x multi_switch.sh
+mkdir /home/osmc/scripts && cd /home/osmc/scripts && wget https://raw.githubusercontent.com/Denisuu/OSMC_NesPi-SuperPi_Safe-Shutdown/master/multi_switch.sh && chmod +x multi_switch.sh
 ```
 
 # 3. Edit rc.local to autostart the script:
